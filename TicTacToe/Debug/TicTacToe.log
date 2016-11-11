@@ -1,0 +1,14 @@
+﻿Build started 2016-10-30 12:20:02 PM.
+     1>Project "C:\Users\Gordon\Desktop\c++\TicTacToe\TicTacToe\TicTacToe.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt GameBoard.cpp
+         GameBoard.cpp
+     1>c:\users\gordon\desktop\c++\tictactoe\tictactoe\gameboard.h(56): error C2365: 'GameBoard::currentPlayer' : redefinition; previous definition was 'member function'
+                 c:\users\gordon\desktop\c++\tictactoe\tictactoe\gameboard.h(40) : see declaration of 'GameBoard::currentPlayer'
+     1>c:\users\gordon\desktop\c++\tictactoe\tictactoe\gameboard.cpp(36): error C2659: '=' : function as left operand
+     1>c:\users\gordon\desktop\c++\tictactoe\tictactoe\gameboard.cpp(39): error C2659: '=' : function as left operand
+     1>Done Building Project "C:\Users\Gordon\Desktop\c++\TicTacToe\TicTacToe\TicTacToe.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.75
